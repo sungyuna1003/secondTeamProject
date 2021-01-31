@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightseagreen;
+  height: 100vh;
+}
+#api .container #api-row #api-column #api-box {
+  margin-top: 40px;
+  height: 700px;
+  max-width: 950px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#api .container #api-row #api-column #api-box #api-form {
+  padding: 20px;
+}
+#api .container #api-row #api-column #api-box #api-form #register-link {
+  margin-top: -85px;
+}
+
+.api-button{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	height: 38px;
+	line-height: 1;
+}
+#api-box{
+	  border-radius: 20px;
+	  padding-top: 20px;
+}
+
+.label-full{
+	width: 100%;
+}
+
+
+.apilabel{
+	margin-bottom: 0px;
+	margin-top: 5px;
+	
+}
+
+#apisearch{
+	height:28px;
+	margin-left: 20px;
+	
+}
+.apisel{
+		height:28px;
+	
+}

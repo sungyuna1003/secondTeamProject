@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+.job_listing_area .job_filter .form_inner .single_field input {
+    height: 60px;
+    border: 1px solid #E8E8E8;
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.job_listing_area .job_filter .form_inner .single_field .nice-select {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #7A838B;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.nice-select {
+    -webkit-tap-highlight-color: transparent;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px #e8e8e8;
+    box-sizing: border-box;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    height: 42px;
+    line-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 30px;
+    position: relative;
+    text-align: left !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: auto;
+}
+
+.nice-select::after {
+    content: "\f0d7";
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transition: all 0.15s ease-in-out;
+    width: 5px;
+    font-family: 'fontawesome';
+    color: #ddd;
+    transform: translateY(-50%);
+    font-size: 16px;
+    right: 25px;
+    color: #AAB1B7;
+    height: auto;
+    margin-top: 0;
+}
+
+.nice-select.wide {
+    width: 100%;
+}

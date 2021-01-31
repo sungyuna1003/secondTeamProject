@@ -1,0 +1,75 @@
+@charset "EUC-KR";
+body{
+  background-color: #F0F0F0;
+  padding-top: 30px;
+}
+.section-plan{
+    background-color:#f1f1f1;
+    padding: 30px;
+}
+.planBox{
+    margin: 0px;
+    border-radius:3px;
+    border:1px solid #D8D8D8;
+}
+.section1{
+    border-radius:3px 3px 0px 0px;
+    padding: 10px 15px 30px 15px;
+    background-color: #BC2663;
+}
+.section1 p{
+    font-size:20px;
+    color:#fff;
+}
+.section1 h1{
+    color:#fff;
+    font-size:45px;
+    margin-top:0px;
+}
+sup{
+    font-size: 12px;
+    top: -1.9em;
+}
+.section1 span{
+    font-size: 12px;
+}
+.box1btn:hover,
+.box1btn{
+    background-color: #FFFFFF;
+    color:#BC2663;
+}
+.saveBtn:hover,
+.saveBtn{
+    background-color: #BC2663;
+    color:#fff;
+}
+.section2{
+    background-color: #fff;
+    padding: 30px 0px 20px 0px;
+}
+.section2 p{
+    display: inline-block;
+    border-bottom: 1px dotted #DDDDDD;
+}
+.section3{
+    padding: 15px;
+    border-top:1px solid #DDDDDD;
+}
+.plus .section1{
+    background-color: #30408B;
+}
+.plus .saveBtn{
+    background-color: #30408B;
+}
+.plus .box1btn{
+    color:#30408B;
+}
+.basic .section1{
+    background-color:#EBA700;
+}
+.basic .box1btn{
+    color:#EBA700;
+}
+.basic .saveBtn{
+    background-color:#EBA700;
+}

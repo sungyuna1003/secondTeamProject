@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>http://www.blueb.co.kr</title>
+
+<script type="text/javascript" src="./js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="./js/mainscript.js"></script>
+
+<style>
+*{margin:0;padding:0;}
+img{border:none;}
+
+#imgCarousel{height:500px; margin:50px auto;position:relative;width:1000px;background-color:none;}
+#imgCarousel .arrow{width:44px;height:44px;background:url('./img/arrows.png') no-repeat;position:absolute;top:50%;margin-top:-10px;left:0;cursor:pointer;}
+#imgCarousel .next{background-position:right top;left:auto;right:0;}
+#imgCarousel .arrow:hover{background-position:left bottom;}
+#imgCarousel .next:hover{background-position:right bottom;}
+#stage{left:50%;margin-left:-320px;position:absolute;width:640px;height:100%;}
+#stage img{display:none;border:2px #999 solid;}
+#stage .default{display:block;left:50%;margin-left:-135px;position:absolute;}
+#stage .animationReady{display:block;position:absolute;top:0;left:0;}
+</style>
+</head>
+
+<body>
+
+<div id="page">
+    <div id="imgCarousel">
+    	<div class="previous arrow"></div>
+        <div class="next arrow"></div>
+        
+        <div id="stage">
+            <a href="#"><img id="img01" class="default" src="./img/s1.png" width="299px" height="400px" alt="" /></a>
+            <a href="#"><img id="img02" src="./img/s2.png" width="299px" height="400px" alt="" /></a>
+            <a href="#"><img id="img03" src="./img/s3.png" width="299px" height="400px" alt="" /></a>
+            <a href="#"><img id="img04" src="./img/s4.png" width="299px" height="400px" alt="" /></a>
+            <a href="#"><img id="img05" src="./img/s5.png" width="299px" height="400px" alt="" /></a>
+            <a href="#"><img id="img06" src="./img/s6.png" width="299px" height="400px" alt="" /></a>
+            
+ 		</div>
+    </div>
+</div>
+
+
+</body>
+</html>

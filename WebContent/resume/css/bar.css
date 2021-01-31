@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+a{
+    text-decoration: none; 
+    color: lightseagreen;
+}
+a:hover {
+    color: lightgray;
+    text-decoration: none; 
+}
+/* whole bar*/
+.navbar {
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    background-color: white;
+    padding:  9px 12px;
+}
+/* Menu*/
+.navbar_menu {
+    display: flex;
+    list-style:none;
+    padding-left:0;
+    font-size: 33px;
+    font-family: initial;
+}
+
+.navbar_menu li {
+    padding: 8px 30px;  
+    display: inline;
+}
+
+.navbar_icons {
+
+    letter-spacing:30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    color: lightgray;
+    font-size: 2em;
+    padding-left:0;
+
+}
+
+.dropdown-menu{
+	    flex-direction: column;
+	    text-align: center;
+	    font-size:22px;
+	    padding: 10px 10px;
+	    width: 260px;
+}
+
+/* Icons */
+.navbar__icons li {
+    padding: 8px 12px;
+    display: none;
+  }
+/* Toggle button */
+.navbar_toogleBtn{
+    position: absolute;
+    display: none;
+    right: 32px;
+    font-size: 24px;
+}
+
+/*For small screen */
+@media screen and (max-width: 768px){
+      /* Nav container */
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 24px;
+    }
+ 
+      /* Menu */
+    .navbar_menu{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 10px;
+        justify-content: center;
+
+    }
+   .navbar_menu li{
+       width: 100%;
+       text-align: center;
+       display: block;    
+   }
+
+   .navbar__menu a {
+    /* Fill in an entire line so that user can click on any space */
+    display: block;
+    
+  }
+
+   /* Icons */
+    .navbar_icons {
+        justify-content: center;
+        display: none;
+        flex-direction: row;
+        width: 100%;
+        font-size: 1.5em;
+        
+    }
+      /* Toggle button */
+    .navbar_toogleBtn{
+        display: block;
+    }
+    /* When toggle button is clicked - active state */
+    .navbar_menu.active,
+    .navbar_icons.active {
+        display: flex;
+    }
+}

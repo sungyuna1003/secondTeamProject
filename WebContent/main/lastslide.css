@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none;
+}
+
+#imgCarousel {
+	height: 390px;
+	margin: 90px auto 120px;
+	position: relative;
+	width: 710px;
+	background-color: none;
+}
+
+#imgCarousel .arrow {
+	width: 44px;
+	height: 44px;
+	background: url('img/arrows.png') no-repeat;
+	position: absolute;
+	top: 50%;
+	margin-top: -22px;
+	left: 0;
+	cursor: pointer;
+}
+
+#imgCarousel .next {
+	background-position: right top;
+	left: auto;
+	right: 0;
+}
+
+#imgCarousel .arrow:hover {
+	background-position: left bottom;
+}
+
+#imgCarousel .next:hover {
+	background-position: right bottom;
+}
+
+#stage {
+	left: 50%;
+	margin-left: -320px;
+	position: absolute;
+	width: 640px;
+	height: 100%;
+}
+
+#stage img {
+	display: none;
+	border: 2px #999 solid;
+}
+
+#stage .default {
+	display: block;
+	left: 50%;
+	margin-left: -135px;
+	position: absolute;
+}
+
+#stage .animationReady {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}

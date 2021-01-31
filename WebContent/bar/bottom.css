@@ -1,0 +1,42 @@
+@charset "UTF-8";
+*{
+	max-width: 100%;
+	width: auto !important;
+	height: auto;
+	
+}
+.about-us{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flext-start;
+	margin: 100px 290px;
+	}
+	
+.img{
+	max-width:100%;
+	height:auto;
+}
+
+.capability{
+	width :650px;
+	margin-right: 50px;
+	 color: lightseagreen;
+}
+
+.capability>h3{
+	margin:0px;
+	text-align: center;
+	margin-bottom:10px;
+	font-size:40px;
+	justify-content: left;
+    color: lightseagreen;
+}
+
+.capability>p{
+	font-size: 23px;
+	margin-bottom: 30px;
+    text-align: center;
+	color: graytext;
+	
+}

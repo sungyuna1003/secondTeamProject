@@ -1,0 +1,163 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: lightseagreen;
+	height: 100vh;
+}
+
+#resume .container #resume-row #resume-column .resume-box {
+	max-width: 600px;
+	border: 1px solid #9C9C9C;
+	background-color: #EAEAEA;
+}
+
+#resume .container #resume-row #resume-column .resume-box regFrm
+	{
+	padding: 20px;
+}
+
+#resume .container #resume-row #resume-column .resume-box #regFrm #resume-link
+	{
+	margin-top: -85px;
+}
+
+#registId {
+	width: 70%;
+	margin: 0px;
+}
+
+.resume-box {
+	margin-bottom: 85px;
+	border-radius: 20px;
+	padding-top: 20px;
+}
+
+#output {
+	object-fit: fill;
+	width: 100%;
+	height: 100%;
+}
+
+.label-full {
+	width: 100%;
+}
+
+.box-radio-input input[type="radio"]{
+  display:none;
+}
+
+.box-radio-input input[type="radio"] + span{
+  display:inline-block;
+  background:none;
+  border:1px solid #dfdfdf;  
+  padding:0px 10px;
+  text-align:center;
+  height:35px;
+  line-height:33px;
+  font-weight:500;
+  cursor:pointer;
+}
+
+.box-radio-input input[type="radio"]:checked + span{
+  border:1px solid #23a3a7;
+  background:#23a3a7;
+  color:#fff;
+}
+ 
+text-right{
+	float: right;
+}
+
+#resume-box1{
+	height: 620px;
+	margin-bottom: 0px;
+	margin-top: 80px;
+}
+
+#resume-box2{
+	height: 580;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+}
+
+#resume-box3{
+	height: 320px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	border-radius: 20px 20px 0px 0px;
+	
+	
+}
+
+#resume-box3h{
+	height: 320px;
+	border-radius: 0px 0px 0px 0px;
+	margin: '0px';
+	
+}
+
+#boxplusbtn{
+	height: 100px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	border-radius: 0px 0px 20px 20px;
+	
+	
+}
+
+#resume-box4h{
+	height: 430px;
+	border-radius: 0px 0px 0px 0px;
+	margin: '0px';
+	
+}
+
+
+#resume-box4{
+	height: 430px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	border-radius: 20px 20px 0px 0px;
+	
+	
+}
+.plus{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	border-radius: 0px;
+}
+
+#resume-box5h{
+	height: 340px;
+	border-radius: 0px 0px 0px 0px;
+	margin: '0px';
+	
+}
+
+
+#resume-box5{
+	height: 340px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	border-radius: 20px 20px 0px 0px;
+	
+	
+}
+
+#resume-box6h{
+	height: 400px;
+	border-radius: 0px 0px 0px 0px;
+	margin: '0px';
+	
+}
+
+
+#resume-box6{
+	height: 370px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	border-radius: 20px 20px 0px 0px;
+	
+	
+}

@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: lightseagreen;
+	height: 100vh;
+}
+
+#register .container #register-row #register-column #register-box {
+	margin-top: 80px;
+	max-width: 600px;
+	height: 1225px;
+	border: 1px solid #9C9C9C;
+	background-color: #EAEAEA;
+}
+
+#register .container #register-row #register-column #register-box regFrm
+	{
+	padding: 20px;
+}
+
+#register .container #register-row #register-column #register-box #regFrm #register-link
+	{
+	margin-top: -85px;
+}
+
+#registId {
+	width: 70%;
+	margin: 0px;
+}
+
+#register-box {
+	margin-bottom: 85px;
+	border-radius: 20px;
+	padding-top: 20px;
+}
+
+#output {
+	object-fit: fill;
+	width: 100%;
+	height: 100%;
+}
+
+.label-full {
+	width: 100%;
+}
+
+.box-radio-input input[type="radio"]{
+  display:none;
+}
+
+.box-radio-input input[type="radio"] + span{
+  display:inline-block;
+  background:none;
+  border:1px solid #dfdfdf;  
+  padding:0px 10px;
+  text-align:center;
+  height:35px;
+  line-height:33px;
+  font-weight:500;
+  cursor:pointer;
+}
+
+.box-radio-input input[type="radio"]:checked + span{
+  border:1px solid #23a3a7;
+  background:#23a3a7;
+  color:#fff;
+}
+ 
+text-right{
+	float: right;
+}

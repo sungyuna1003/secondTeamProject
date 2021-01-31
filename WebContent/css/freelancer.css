@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+.margin10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.width100 {
+	width: 100%;
+}
+
+.checkboard {
+	padding: 0px;
+	margin: 0px;
+	height: 35px;
+}
+
+.main-menu {
+	margin-bottom: 12px;
+	border: 1px solid transparent;
+	justify-content: space-between !important;
+	height: 60px;
+	padding: 5px;
+	background: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	border-radius: 4px;
+	-webkit-box-pack: justify !important;
+	justify-content: space-between !important;
+	display: flex !important;
+}
+
+.imgtitle {
+	-webkit-box-align: center !important;
+	align-items: center !important;
+	display: flex !important;
+}
+
+#checkboardseldiv {
+	height: 32px;
+}
+
+#checkboardseldiv1 {
+	padding-right: 0px;
+}
+
+#checkboardsel {
+	margin-top: 0px;
+}
+
+.manu-imgplace {
+	float: left;
+	border-radius: 5px;
+	padding: 15px;
+	background: #F5F7FA;
+	margin-right: 25px;
+	border: 1px solid #F0F0F0;
+	height: 40px;
+	width: 40px;
+	padding: 5px;
+}
+
+.img {
+	vertical-align: middle;
+	border-style: none;
+}
+
+.heart_mark {
+	border-radius: 5px;
+	color: #00D363;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	background: #EFFDF5;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+}
+
+.freeboxed-btn3 {
+	background: #00D363;
+    color: #fff;
+    display: block;
+    padding: 13px 29px 13px 29px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid transparent;
+ 	display: inline-block;
+ 
+    border-radius: 5px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+     cursor: pointer;
+	padding: 2px;
+	font-size: 14px;
+	
+}
+
+.apply_now{
+	text-align: right;
+}
+
+.freepagination_wrap{
+	    text-align: center;
+    margin-top: 20px;
+	
+}
+
+ul{
+	    margin-top: 0;
+    margin-bottom: 1rem;
+        display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+	
+}
+
+.freepagination_wrap ul li {
+    display: inline-block;
+    text-align: -webkit-match-parent;
+}
+
+.freepagination_wrap ul li a {
+    width: 38px;
+    height: 38px;
+    border: 1px solid #EAEAEA;
+    
+    border-radius: 50%;
+    
+    text-align: center;
+    line-height: 38px;
+    display: inline-block;
+    color: #AAB1B7;
+    font-size: 14px;
+    margin: 0 4px;
+    
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.freepagination_wrap ul li a span {
+    line-height: 38px;
+}

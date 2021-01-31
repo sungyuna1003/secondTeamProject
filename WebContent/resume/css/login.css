@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightseagreen;
+  height: 100vh;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 80px;
+  max-width: 600px;
+  height: 340px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+.login-button{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	height: 38px;
+	line-height: 1;
+}
+#login-box{
+	  border-radius: 20px;
+	  padding-top: 20px;
+}
+
+.label-full{
+	width: 100%;
+}

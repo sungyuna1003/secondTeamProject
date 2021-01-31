@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/*For small screen */
+@media screen and (max-width: 768px){
+.boardInfoPic{
+	justify-content: center;
+    display: none;
+    flex-direction: row;
+    width: 100%;
+ padding-bottom: 100px;
+}
+    
+
+}

@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-size:14px;
+	color:#515151;
+	background:url('img/bg.png') repeat-x #f6f8f9;
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+}
+
+#logoh1{ margin:40px 0 0;}
+
+#page{
+	/* This the main container div */
+	width:1400px;
+	min-height:700px;
+	margin:0 auto;
+	background:no-repeat 0 120px;
+	position:relative;
+	padding-top:1px;
+}
+
+
+/* Hover styles */
+
+
+#stage{
+	/* The stage contains the animated phone images */
+	left:50%;
+	margin-left:-350px;
+	position:absolute;
+	width:700px;
+	height:100%;
+}
+
+#stage img{
+	/* Hiding all the images by default */
+	display:none;
+}
+
+#stage .default{
+	/*	This class is applied only to the iphone img by default
+		and it is the only one visible if JS is disabled */
+	display:block;
+	left:50%;
+	margin-left:-135px;
+	position:absolute;
+}
+
+#stage .animationReady{
+	/* This class is assigned to the images on load */
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+
+/* The styles below are only necessary for the purposes of Tzine's demo */
+
+
+
+#thanks{
+	color:#aaa;
+	font-size:12px;
+	text-align:center;
+	padding:50px;
+}
+#thanks a{ color: #888;}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{	text-decoration:underline;}
+a img{	border:none;}
